@@ -1,0 +1,273 @@
+/*Global selector*/
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+/* Styling for the header and navigation*/
+.header{
+    padding: 25px;
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+  
+   
+}
+.header h1{
+    display: inline-block;
+    font-size: 50px;
+
+}
+.header h1 em{
+    color: black;
+}
+.header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;    
+   
+}
+.list li{
+    list-style: none;
+    display: inline;
+ 
+
+}
+
+.list li a
+{
+  flex-wrap: wrap;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-align: end;
+}
+
+ .list li a:hover{
+  color: red;
+ }   
+
+ /* home section starts here*/
+
+.home{
+   background-color: black;
+   position: relative; 
+   width: 100%; 
+   display: flex;
+   
+}
+.home .max-width{
+  width:100%;
+  height:50%;
+  float:left;
+  background-color:black;
+  margin-bottom: 20px;
+}
+h2  { 
+    color: purple;
+    position: absolute; 
+    left: 900px;
+    top: 150px; 
+    font-size: 40px;
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+
+ }
+ /*home section ends here*/
+
+ /*about-me  section starts here*/
+.about{
+    display: flex;
+    background-color: purple;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+    border: 10px solid whitesmoke;
+    width: 100%;
+}
+
+.about h3{
+    font-size: 40px;
+    font-family:Arial;
+    text-align:center;
+   top: 2px;
+    padding: 10px;
+    text-decoration:Underline;
+    color: black;
+   
+}
+.aboutcontent
+{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.about .max-width
+{
+ margin-top: 20px;
+  color:purple
+    
+}
+
+p{
+  text-align:justify-content;
+  color:black ;
+  font-size: 25px;
+  
+}
+/*about-me section ends here*/
+
+
+
+
+/*---My Work style---*/
+.mywork{
+  padding: 50px 0;
+  border: 3px solid whitesmoke;
+
+}
+.mywork h4{
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    justify-content: center;
+    font-size:40px;
+    text-decoration: underline;
+ 
+ }
+
+ .mywork .max-width{
+    width:100%;
+    float:left;
+   background-color:white;
+  
+}
+ 
+.mywork img{
+   
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.mywork img:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  height: 300px;
+  width: 700px;
+  
+}
+
+/*contact-me section starts here*/
+.contact {
+  border-radius: 5px;
+  background-color: purple;
+  padding: 10px;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+   
+  }
+  /*
+  .contact{
+    padding: 70px 0;
+    border: 10px solid whitesmoke;
+    border-top: 10px;
+    margin-top: 20px;
+  }*/
+
+  .contact button:hover{
+    background-color: red;
+  }
+ 
+  .contact .max-width{
+    margin-top: 60px;
+    width:100%;
+    float:left;
+   background-color:purple;
+
+}
+
+  .contact h4{
+    font-size: 40px;
+    text-align: center;
+    text-decoration:Underline;
+    padding-left: 0px;
+  
+  }
+
+.contact label{
+    font-size: 50px;
+    color:black;
+   
+}
+.contact button{
+    background-color: blue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 4px 2px;
+    border-radius: 6px;
+}
+
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+ 
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+
+@media only screen and (min-width:1304px){
+  h2{
+    
+  font-size: 40px;
+  padding-left: 20px;
+  text-align: center;
+    display: inline;
+ 
+}
+}
+/*styling for footer*/
+
+  .footer p {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+ 
+}
